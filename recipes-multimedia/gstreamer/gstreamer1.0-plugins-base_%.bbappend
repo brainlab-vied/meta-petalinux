@@ -16,6 +16,6 @@ SRC_URI = " \
 SRCREV_base = "ce156424eb9cbb66dc1aa446c4be6372d3ff5792"
 SRCREV_FORMAT = "base"
 
-PACKAGECONFIG:append = " opus"
+PACKAGECONFIG_append = " opus"
 
 S = "${WORKDIR}/git"

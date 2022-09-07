@@ -18,6 +18,6 @@ SRCREV_base = "cadd0347435b6f46791a38a87f57553f279f439f"
 SRCREV_FORMAT = "base"
 
 PACKAGECONFIG[mediasrcbin] = "-Dmediasrcbin=enabled,-Dmediasrcbin=disabled,media-ctl"
-PACKAGECONFIG:append = " faac kms faad opusparse mediasrcbin"
+PACKAGECONFIG_append = " faac kms faad opusparse mediasrcbin"
 
 S = "${WORKDIR}/git"
