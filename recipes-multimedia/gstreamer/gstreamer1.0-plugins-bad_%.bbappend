@@ -12,6 +12,7 @@ SRC_URI = " \
     file://0003-ensure-valid-sentinals-for-gst_structure_get-etc.patch \
     file://0004-opencv-resolve-missing-opencv-data-dir-in-yocto-buil.patch \
     file://0005-msdk-fix-includedir-path.patch \
+    file://0010-commit-for-support-for-kernel-5.15.patch \
 "
 
 SRCREV_base = "cadd0347435b6f46791a38a87f57553f279f439f"
